@@ -28,7 +28,7 @@ var s3site = require('s3-site');
 **Deploy**
 
 ```
-deploy({
+s3site.deploy({
   name   : [name],
   env    : [env],
   prefix : [prefix],
