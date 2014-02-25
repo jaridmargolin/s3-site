@@ -1,6 +1,6 @@
 {
   "name": "s3-site",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create, manipulate, and deploy static websites to Amazon S3",
   "author": "Jarid Margolin <jarid@firstopinion.co>",
   "repository": {
