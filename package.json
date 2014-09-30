@@ -1,6 +1,6 @@
 {
   "name": "s3-site",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Create, manipulate, and deploy static websites to Amazon S3",
   "author": "Jarid Margolin <jarid@firstopinion.co>",
   "repository": {
@@ -8,11 +8,21 @@
     "url": "https://github.com/firstopinion/s3-site"
   },
   "main": "lib/s3-site",
+  "scripts": {
+    "test": "make test"
+  },
   "dependencies": {
-    "async": "0.2.10",
-    "aws-sdk": "~2.0.0-rc9",
+    "async": "~0.2.10",
+    "aws-sdk": "~v2.0.18",
     "underscore": "~1.6.0",
     "mime": "~1.2.11"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4",
+    "nock": "^0.48.0",
+    "request": "~2.44.0",
+    "sinon": "~1.10.3"
+  }
 }

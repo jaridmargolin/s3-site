@@ -1,4 +1,4 @@
-s3-site
+s3-site [![Build Status](https://travis-ci.org/firstopinion/s3-site.png)](https://travis-ci.org/firstopinion/s3-site)
 =======
 
 Create, manipulate, and deploy static websites to Amazon S3
@@ -29,26 +29,18 @@ var s3site = require('s3-site');
 
 ```
 s3site.deploy({
-  name   : [name],
-  env    : [env],
-  prefix : [prefix],
-  region : [region],
-  src    : [src]
+  name    : [name],
+  env     : [env],
+  prefix  : [prefix],
+  region  : [region],
+  srcPath : [src]
 });
 ```
-
-
-## Todos
-
-* Test (fake-s3)
-* Docs
-* Sync
-
 
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2013 First Opinion
+Copyright (c) 2014 First Opinion
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

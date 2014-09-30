@@ -1,0 +1,840 @@
+[  
+  {  
+    "scope":"https://s3site-test-exists.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"90br98aA9NUKsr1Tj+W3SH4Ei81rsZnGckTsH501FIASAMEzV23i+XxUJ252XlMNH/I48cEOCRU=",
+      "x-amz-request-id":"7ADB2DF9006FC766",
+      "date":"Tue, 30 Sep 2014 04:45:10 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-doesnt.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":404,
+    "response":"",
+    "headers":{  
+      "x-amz-request-id":"9B3A9FCFE984737E",
+      "x-amz-id-2":"ZaWDri4FwwzD67V+TabsvcnbLlrNF7QaX0w66w9vIH7D6vGvsLLiumA2PA3jOxRk",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "date":"Tue, 30 Sep 2014 04:45:19 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"NuORST10YXHP8JIzGgca2rIkBxsL/QqZSx6BwRPEi8a73AueBc1wOur3Xo0Qpe4m",
+      "x-amz-request-id":"0E3529DF28DE16D2",
+      "date":"Tue, 30 Sep 2014 04:45:30 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"AS7xXyGx/0q2UN0O/wqi4fhj1tiO0FKZDf+Prt3Zr1xywAqEm1yIXzd2rz3O1GJY",
+      "x-amz-request-id":"42351FEF95141C6E",
+      "date":"Tue, 30 Sep 2014 04:45:31 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"DELETE",
+    "path":"/",
+    "body":"",
+    "status":204,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"NW0mpT0XfYw10aNQxBe9j2WAfWARQleUi4zfU0SmZCnHXM9330l7L05HrENBH4jq",
+      "x-amz-request-id":"4D9D45CE0315BDA4",
+      "date":"Tue, 30 Sep 2014 04:45:41 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":404,
+    "response":"",
+    "headers":{  
+      "x-amz-request-id":"EB6775DB4945811C",
+      "x-amz-id-2":"vSgbGAHECL7agazkoNbhMMOEmnnIcpnc8rgkuFBinWK17TBSmOwdgfYll28AsIeZ",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "date":"Tue, 30 Sep 2014 04:45:50 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-exists.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-exists</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-29T22:47:44.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"u6YWlTSlHgxdYj8GpgkJF82HPofoiWsOYsoH0zmbjIdkfm3x6JLKFhv+RBzcErg6/2luNnGp4ec=",
+      "x-amz-request-id":"64F28FDE598E7B13",
+      "date":"Tue, 30 Sep 2014 04:46:02 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"OV2yB9gXbD8nHJD4lqByH6xyLLEGF5EPTva2bY/Cn4GRF4FDHNQdkd07f0QiPVpI",
+      "x-amz-request-id":"F4AE86D146BAF792",
+      "date":"Tue, 30 Sep 2014 04:46:13 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/index.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"WqcLhPh5G4qyo7QYLXhvym0KsKLKtHqET2ODbXaRa5EANVpIXwbV0BUZh14DT97F",
+      "x-amz-request-id":"D2C7188C3DBA9664",
+      "date":"Tue, 30 Sep 2014 04:46:14 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:46:14.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"Hm6Ban8ob8y9TUmrKH/MrliTR+KbTsGl6pbSsOYgPIK/1WHcXgTUaS/cOoVo7Dzt",
+      "x-amz-request-id":"4DA6407638DDC424",
+      "date":"Tue, 30 Sep 2014 04:46:14 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:46:14.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"8TOwsPlj8jJgpMPirAG8qyZu/nEjJduyBZpti568VSyCNv/ioqQmZ3lRlEpeC1UG",
+      "x-amz-request-id":"FE1F16A053E995E8",
+      "date":"Tue, 30 Sep 2014 04:46:14 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"POST",
+    "path":"/?delete",
+    "body":"<Delete xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Object><Key>index.html</Key></Object></Delete>",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<DeleteResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Deleted><Key>index.html</Key></Deleted></DeleteResult>",
+    "headers":{  
+      "x-amz-id-2":"TU8R8TRIn/6amUg1a0fCrKJALBez9Lq4hIX3HNx9MzY0Onru3cLrcLDB+LOTvYeP",
+      "x-amz-request-id":"6A84318D973DE512",
+      "date":"Tue, 30 Sep 2014 04:46:15 GMT",
+      "connection":"close",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"DELETE",
+    "path":"/",
+    "body":"",
+    "status":204,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"JRVypZ1FW+PQNTwJBS+nh4y7ibKIm6wuQdX7UBnj7YItX81gdon/Rguzmes/Is7S",
+      "x-amz-request-id":"702745836793990B",
+      "date":"Tue, 30 Sep 2014 04:46:15 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"DDWIP92vcT05HuEtK7hPTyoiJ4jq6o1WfsU7oAHWat0Fhzvek66YVClUhyf9l16D",
+      "x-amz-request-id":"8916BBD4345BAA58",
+      "date":"Tue, 30 Sep 2014 04:46:25 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/index.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"PPjy/A5S7UdQZTjeB6AGR0C/gzW2ARY47IsBJ9RJeWI8stnSxdlNTzxNxDjAy+yr",
+      "x-amz-request-id":"C917BB4EB6679D05",
+      "date":"Tue, 30 Sep 2014 04:46:26 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:46:26.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"99kQ+b7QjXW3q3cQ30HwmNE3EaWMjtelgTYqJJOuruef0kGv++a10Kxs6dkOYqp/",
+      "x-amz-request-id":"42EF942336DBAAFC",
+      "date":"Tue, 30 Sep 2014 04:46:26 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"POST",
+    "path":"/?delete",
+    "body":"<Delete xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Object><Key>index.html</Key></Object></Delete>",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<DeleteResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Deleted><Key>index.html</Key></Deleted></DeleteResult>",
+    "headers":{  
+      "x-amz-id-2":"b/NTxtzpw0v2EajenaQZu+HG0vro9TBPZ2DkYSa9MXAbT5ap1BxV0zOrJ/Ij6A08",
+      "x-amz-request-id":"FE0A4DD75B0E7A3B",
+      "date":"Tue, 30 Sep 2014 04:46:26 GMT",
+      "connection":"close",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"tuE/qoUlY15K7HNaD/W6+El6SpGjAf2uPuEhK+DHbtIkKeKJEcpUtJzHfRUMs4GY",
+      "x-amz-request-id":"D2EEBDC60D443152",
+      "date":"Tue, 30 Sep 2014 04:46:27 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"DELETE",
+    "path":"/",
+    "body":"",
+    "status":204,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"NseKuZUaZJxJ3DCRxAFO4+h4EjUWG/xwprU13DOYOhkAvTQA2uOD6cEhzfbGcuhB",
+      "x-amz-request-id":"81F2CE55C33756AD",
+      "date":"Tue, 30 Sep 2014 04:46:27 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"lA8o/NjRR0F76vLElb5XuaQs4aXIQOG+S/3QpzzRX7QZycdx98NLVV6R7diLI6lj",
+      "x-amz-request-id":"9E5CF1A36657A56E",
+      "date":"Tue, 30 Sep 2014 04:46:37 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/index.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"BDUY7jcMxKtH+dopqSfpYpodXuA5zrBeK3IPQj4YPZjS2YBV4cr12puxnPZXk1PY",
+      "x-amz-request-id":"6B76A1AF7B04F2A7",
+      "date":"Tue, 30 Sep 2014 04:46:38 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"uctXYIrqRK4WRwSCjB2RmDWUkGE2b2eIFPot5WNJd+uxYGiQKMzYntYH+Zcauymm",
+      "x-amz-request-id":"2341386B91645D72",
+      "date":"Tue, 30 Sep 2014 04:46:38 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:46:38.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"Bgu7KVv1YCBu1r4JJvzoEwRnmLPGXgWvbk0G1uEs4OYCMTbm6Vk9IGp6fAJ3vH43",
+      "x-amz-request-id":"0CFA4CF34ACC5776",
+      "date":"Tue, 30 Sep 2014 04:46:39 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"POST",
+    "path":"/?delete",
+    "body":"<Delete xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Object><Key>index.html</Key></Object></Delete>",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<DeleteResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Deleted><Key>index.html</Key></Deleted></DeleteResult>",
+    "headers":{  
+      "x-amz-id-2":"wtnooIlYbEQ1333XDhIrbQZDf1373UBw7a/OdxzipGKZfPLw9BHBeyAD+dRwod2c",
+      "x-amz-request-id":"63FCFB08C653BC83",
+      "date":"Tue, 30 Sep 2014 04:46:39 GMT",
+      "connection":"close",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"DELETE",
+    "path":"/",
+    "body":"",
+    "status":204,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"WR5Pskj61eXe2tiJYBV6YN7BC/RAlxVrkrr9RAQ06SCcUm0CmVG0aL/7qgQQmXd/",
+      "x-amz-request-id":"3C3BAB2926CB495A",
+      "date":"Tue, 30 Sep 2014 04:46:40 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":404,
+    "response":"",
+    "headers":{  
+      "x-amz-request-id":"43309E50590374CA",
+      "x-amz-id-2":"5hgq27WmA9V/kKn/JQWzMIDHoHeYr5b51C20hq93jeuuT7r5HAayPi4+3FnJvh6T",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "date":"Tue, 30 Sep 2014 04:46:49 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"6P4Kd13rZus+x81y1R6W6ftWZ+bKKrePzuKEzq+MU+uVHqK955vJk/Vkm8N5HSB+",
+      "x-amz-request-id":"E4A7FC156C95E78C",
+      "date":"Tue, 30 Sep 2014 04:47:01 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/index.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"Sqvswn/TNlYeiYNS3A+2MX3m1mIhDaYZHqsb2iEY5b03nz2egfrBvZZw+gxf/aNR",
+      "x-amz-request-id":"87726C6A6BC19116",
+      "date":"Tue, 30 Sep 2014 04:47:01 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/nested/folder/test.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>nested/folder/test</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"Ih2hwTgWHYXqQ6vc8j8JLLVMsNuNH3OEENqPSCRVNRpV+oywI+G7K52+2HQHpntF",
+      "x-amz-request-id":"81C016318E700063",
+      "date":"Tue, 30 Sep 2014 04:47:01 GMT",
+      "etag":"\"64197c2d63a5ccb0e0d046baa29f3574\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:47:01.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>nested/folder/test.html</Key><LastModified>2014-09-30T04:47:01.000Z</LastModified><ETag>&quot;64197c2d63a5ccb0e0d046baa29f3574&quot;</ETag><Size>245</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"rqxY19R9JNyJjagzklVFC2LJvdATHfE6fCQwboAEEXsG/HH9nPK/OeR91x6zecGi",
+      "x-amz-request-id":"01F68AD358083945",
+      "date":"Tue, 30 Sep 2014 04:47:01 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"yviPbTHPv+KR7IPbcSF95InKTMXsTdzxC6G7+WTH8iGyz6NhAaYFow1/LQcpUGZD",
+      "x-amz-request-id":"4E83DD05884562E9",
+      "date":"Tue, 30 Sep 2014 04:47:02 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:47:01.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>nested/folder/test.html</Key><LastModified>2014-09-30T04:47:01.000Z</LastModified><ETag>&quot;64197c2d63a5ccb0e0d046baa29f3574&quot;</ETag><Size>245</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"gZ/7r4czSRsTPy/KBWgjvQvKZUTx6tNhIlyyFdbIZVWFT5iZAPO1oXMOd2eRY0mg",
+      "x-amz-request-id":"88FB2E2FF5E55BC9",
+      "date":"Tue, 30 Sep 2014 04:47:02 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"POST",
+    "path":"/?delete",
+    "body":"<Delete xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Object><Key>index.html</Key></Object><Object><Key>nested/folder/test.html</Key></Object></Delete>",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<DeleteResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Deleted><Key>index.html</Key></Deleted><Deleted><Key>nested/folder/test.html</Key></Deleted></DeleteResult>",
+    "headers":{  
+      "x-amz-id-2":"fdI523S/AWVgASlcyeEYaxo3RizIBLl3lkyAp37DUA49T8E47MmNyGHxyI8BQfqS",
+      "x-amz-request-id":"2E3945A911F38584",
+      "date":"Tue, 30 Sep 2014 04:47:02 GMT",
+      "connection":"close",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"DELETE",
+    "path":"/",
+    "body":"",
+    "status":204,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"9M2hT4/9HkEvpl7qtut+wTHuso1GXb/rsN8GBUfZRob1wdvimzFoLFq3f07rUDPg",
+      "x-amz-request-id":"66824A01236199A6",
+      "date":"Tue, 30 Sep 2014 04:47:03 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"FT6YtjPcN0U17Gvyjl4yWPEDwGK7yU9QDpMaPgaa6ShkY8qrum1uHFSlGVg6j9qS",
+      "x-amz-request-id":"67D9CFC71C4607D6",
+      "date":"Tue, 30 Sep 2014 04:47:14 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/nested/folder/test.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>nested/folder/test</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"rhe3YUayA0wQptpL5Z9FD4Cxp+Ak6fI/8Hi9nOJDDm9ohKIPeKOLpg8PM2VJ6fiA",
+      "x-amz-request-id":"B102AEB1D459D274",
+      "date":"Tue, 30 Sep 2014 04:47:15 GMT",
+      "etag":"\"64197c2d63a5ccb0e0d046baa29f3574\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/index.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"3sTQ7pV4S9GdvkPy1WgaEa4yO9uLKhBwjbV/P79fuVWF3LB9xmr6e/ndSv2j+vQJ",
+      "x-amz-request-id":"1312D2024CD12A61",
+      "date":"Tue, 30 Sep 2014 04:47:15 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:47:15.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>nested/folder/test.html</Key><LastModified>2014-09-30T04:47:15.000Z</LastModified><ETag>&quot;64197c2d63a5ccb0e0d046baa29f3574&quot;</ETag><Size>245</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"vsujr0M0cWVDBuElgQ2wGCiTASnrAAwIJNWnF76OVbvGgnX/XidGzmBiAVQzsXyY",
+      "x-amz-request-id":"983D05D0C4EEF186",
+      "date":"Tue, 30 Sep 2014 04:47:16 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"H/sEGr/0doxWcEsCT5mCd/muty8Bh4ZZItbWDJE+OX/UmI8s5tt3eeC6y/nJCyvr",
+      "x-amz-request-id":"504AAEE65623027E",
+      "date":"Tue, 30 Sep 2014 04:47:16 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>s3site-test-site</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>index.html</Key><LastModified>2014-09-30T04:47:15.000Z</LastModified><ETag>&quot;9231f3991d3ff56a648625e861a129bc&quot;</ETag><Size>232</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>nested/folder/test.html</Key><LastModified>2014-09-30T04:47:15.000Z</LastModified><ETag>&quot;64197c2d63a5ccb0e0d046baa29f3574&quot;</ETag><Size>245</Size><Owner><ID>f0a362f4c29c74355349033090f936a45ecb25c34411465cf59c5291776f2c0d</ID><DisplayName>jaridmargolin</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>",
+    "headers":{  
+      "x-amz-id-2":"R91cXh9AJ0sH6ZgbPwdHRomaVbrmgY7pwQvd2DmCLLzGgCJoYWzjvVBTiVhHKi5f",
+      "x-amz-request-id":"352C704EACD93219",
+      "date":"Tue, 30 Sep 2014 04:47:16 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"POST",
+    "path":"/?delete",
+    "body":"<Delete xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Object><Key>index.html</Key></Object><Object><Key>nested/folder/test.html</Key></Object></Delete>",
+    "status":200,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<DeleteResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Deleted><Key>index.html</Key></Deleted><Deleted><Key>nested/folder/test.html</Key></Deleted></DeleteResult>",
+    "headers":{  
+      "x-amz-id-2":"uipz94iQFXFf57boXb3nvmN2sQQ52pTXAmX4uGhJtIymqtrzWmQXR5MHRIZltnVq",
+      "x-amz-request-id":"19BCA0ABF8AED1CE",
+      "date":"Tue, 30 Sep 2014 04:47:16 GMT",
+      "connection":"close",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"DELETE",
+    "path":"/",
+    "body":"",
+    "status":204,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"soHp+mn52hQy43QEsmGkU96RY4EyY9mn8OJbVdMMnIM6pMWM/dUeir+WuSG9lIbU",
+      "x-amz-request-id":"68601D0F11DE9952",
+      "date":"Tue, 30 Sep 2014 04:47:17 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{  
+      "x-amz-id-2":"UlAF/3SbVJczoEaMA292iWtbAUNS1YMqWdQwNbA4YfMdHGkFNSyX24mMy+ebpQqE",
+      "x-amz-request-id":"18B1EF726EE4059A",
+      "date":"Tue, 30 Sep 2014 04:47:27 GMT",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "server":"AmazonS3"
+    }
+  },
+  {  
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":404,
+    "response":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>s3site-test-site</BucketName><RequestId>704DF172D209329B</RequestId><HostId>cIBgGpGhx3WgEiqIzGHRXLIUQ99L58eZz18BHOqZIpeVFMuBsT1IFOkhiiDb8TJ2</HostId></Error>",
+    "headers":{  
+      "x-amz-request-id":"704DF172D209329B",
+      "x-amz-id-2":"cIBgGpGhx3WgEiqIzGHRXLIUQ99L58eZz18BHOqZIpeVFMuBsT1IFOkhiiDb8TJ2",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "date":"Tue, 30 Sep 2014 04:47:26 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":404,
+    "response":"",
+    "headers":{
+      "x-amz-request-id":"E987DFD7A05EA90C",
+      "x-amz-id-2":"OYYvaBGUw/q5Zb4QUGJZBDqrVQkOyA10ZZUket1zWDNRzQ8YDngkM0MeGmjR1X5d",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "date":"Tue, 30 Sep 2014 04:54:41 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"",
+    "headers":{
+      "x-amz-id-2":"VjtyDK2xzn01P9aGy2Iq8cNN0yoocIcPZotGsHhIwR3kHyKl/SZl7lpMKnohOVIP",
+      "x-amz-request-id":"8DF5CF423A3EC458",
+      "date":"Tue, 30 Sep 2014 04:54:42 GMT",
+      "location":"/s3site-test-site",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/?website",
+    "body":"<WebsiteConfiguration xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><IndexDocument><Suffix>index.html</Suffix></IndexDocument></WebsiteConfiguration>",
+    "status":200,
+    "response":"",
+    "headers":{
+      "x-amz-id-2":"lHxXAlzC3Xet5jkGGY7AluK0g2FObqk+68ZqRll9k4EjW0g5AlRwix56Xik+3tA/",
+      "x-amz-request-id":"ED4676A3B9EEE313",
+      "date":"Tue, 30 Sep 2014 04:54:43 GMT",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/?policy",
+    "body":{
+      "Version":"2008-10-17",
+      "Id":"Policy1392681112290",
+      "Statement":[
+        {
+          "Sid":"Stmt1392681101677",
+          "Effect":"Allow",
+          "Principal":{
+            "AWS":"*"
+          },
+          "Action":"s3:GetObject",
+          "Resource":"arn:aws:s3:::s3site-test-site/*"
+        }
+      ]
+    },
+    "status":204,
+    "response":"",
+    "headers":{
+      "x-amz-id-2":"X/1DLE+wRRCKSTiw8IDZvrzF3eP57OkdMq6+2RBqRSxqVubGV7aihOLM906bOWek",
+      "x-amz-request-id":"DAB58D7B3DB776A3",
+      "date":"Tue, 30 Sep 2014 04:54:43 GMT",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/index.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{
+      "x-amz-id-2":"0TY1newUB1/lvICs/gf+sszgd5pVoRW0O+BKqgm72uFJ97vwQ0h/2SJZ7AYnjo9v",
+      "x-amz-request-id":"542916025EBC702F",
+      "date":"Tue, 30 Sep 2014 04:54:44 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"PUT",
+    "path":"/nested/folder/test.html",
+    "body":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>nested/folder/test</h1>\n  </body>\n</html>",
+    "status":200,
+    "response":"",
+    "headers":{
+      "x-amz-id-2":"8ojaLOJeL6F3orLWKFqGDjOM0gkts/j3kW5oJfsYBH925vyF4poFKEPf2fjy+SdY",
+      "x-amz-request-id":"B0B74DC296AC84CF",
+      "date":"Tue, 30 Sep 2014 04:54:44 GMT",
+      "etag":"\"64197c2d63a5ccb0e0d046baa29f3574\"",
+      "content-length":"0",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"http://s3site-test-site.s3-website-us-east-1.amazonaws.com:80",
+    "method":"GET",
+    "path":"/",
+    "body":"",
+    "status":200,
+    "response":"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    <h1>index</h1>\n  </body>\n</html>",
+    "headers":{
+      "x-amz-id-2":"S+CEkrv1JlmTFORnekEKeZMuSsC9wCIMIMawAynxupAkfsEbcgpWCIYuvx04NQmR/NA4uRqqEJ8=",
+      "x-amz-request-id":"D99C2E40E4E3CEF1",
+      "date":"Tue, 30 Sep 2014 04:54:45 GMT",
+      "last-modified":"Tue, 30 Sep 2014 04:54:44 GMT",
+      "etag":"\"9231f3991d3ff56a648625e861a129bc\"",
+      "content-type":"text/html",
+      "content-length":"232",
+      "server":"AmazonS3"
+    }
+  },
+  {
+    "scope":"https://s3site-test-site.s3.amazonaws.com:443",
+    "method":"HEAD",
+    "path":"/",
+    "body":"",
+    "status":404,
+    "response":"",
+    "headers":{
+      "x-amz-request-id":"571137E8F21E5C17",
+      "x-amz-id-2":"ZhQxET9OSet8U1zYxGGXTUib64byM7PGLbdpRC4fDC6eM+5RpfLZhZ688VZ8mg7o",
+      "content-type":"application/xml",
+      "transfer-encoding":"chunked",
+      "date":"Tue, 30 Sep 2014 04:54:44 GMT",
+      "server":"AmazonS3"
+    }
+  }
+]
