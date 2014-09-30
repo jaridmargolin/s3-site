@@ -34,7 +34,8 @@ var s3config = {
 
 var sitePath = path.join(__dirname, 'fixtures/site');
 var indexPath = path.join(__dirname, 'fixtures/site/index.html');
-var siteUrl = 'http://s3site-test-site.s3-website-us-east-1.amazonaws.com/';
+var indexUrl = 'http://s3site-test-site.s3-website-us-east-1.amazonaws.com/';
+var testUrl = 'http://s3site-test-site.s3-website-us-east-1.amazonaws.com/nested/folder/test.html';
 
 
 /* -----------------------------------------------------------------------------
@@ -109,7 +110,8 @@ describe('bucket.js', function () {
       name    : 'site',
       env     : 'test',
       prefix  : 's3site',
-      srcPath : sitePath
+      srcPath : sitePath,
+      noCache : ['index.html']
     }, s3config);
   });
 
@@ -359,11 +361,26 @@ describe('bucket.js', function () {
       destroy.call(this, done);
     });
 
-    it('Should expose contents at a public url.', function (done) {      
-      this.siteBucket.deploy(function () {
+    it('Should expose contents at a public url.', function (done) {  
+      var verifyIndex = function (callback) {
+        request(indexUrl, function (err, res, body) {
+          assert.isTrue(!!res.headers['cache-control']);
+          assert.isTrue(!err && res.statusCode === 200);
+          callback();
+        });
+      };
+
+      var verifyTest = function (callback) {
+        request(testUrl, function (err, res, body) {
+          assert.isFalse(!!res.headers['cache-control']);
+          assert.isTrue(!err && res.statusCode === 200);
+          callback();
+        });
+      };
+
+      this.siteBucket.deploy(function (err) {
         setTimeout(function () {
-          request(siteUrl, function (err, res, body) {
-            assert.isTrue(!err && res.statusCode === 200);
+          async.parallel([verifyIndex, verifyTest], function () {
             done();
           });
         }, TEST_DELAY);
