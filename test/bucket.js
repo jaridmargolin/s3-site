@@ -1,6 +1,6 @@
 /*!
  * test/bucket.js
- * 
+ *
  * Copyright (c) 2014
  */
 
@@ -112,6 +112,15 @@ describe('bucket.js', function () {
       prefix  : 's3site',
       srcPath : sitePath,
       noCache : ['index.html']
+    }, s3config);
+
+    this.siteNoExtBucket = new Bucket({
+      name             : 'site',
+      env              : 'test',
+      prefix           : 's3site',
+      srcPath          : sitePath,
+      removeExtensions : ['.html'],
+      indexDocument    : 'index'
     }, s3config);
   });
 
@@ -361,7 +370,7 @@ describe('bucket.js', function () {
       destroy.call(this, done);
     });
 
-    it('Should expose contents at a public url.', function (done) {  
+    it('Should expose contents at a public url.', function (done) {
       var verifyIndex = function (callback) {
         request(indexUrl, function (err, res, body) {
           assert.isTrue(!!res.headers['cache-control']);
@@ -379,6 +388,32 @@ describe('bucket.js', function () {
       };
 
       this.siteBucket.deploy(function (err) {
+        setTimeout(function () {
+          async.parallel([verifyIndex, verifyTest], function () {
+            done();
+          });
+        }, TEST_DELAY);
+      });
+    });
+
+    it('Should expose contents without extensions.', function (done) {
+      var verifyIndex = function (callback) {
+        request(indexUrl, function (err, res, body) {
+          assert.equal(res.headers['content-type'], 'text/html');
+          assert.isTrue(!err && res.statusCode === 200);
+          callback();
+        });
+      };
+
+      var verifyTest = function (callback) {
+        request(testUrl.replace('.html', ''), function (err, res, body) {
+          assert.equal(res.headers['content-type'], 'text/html');
+          assert.isTrue(!err && res.statusCode === 200);
+          callback();
+        });
+      };
+
+      this.siteNoExtBucket.deploy(function (err) {
         setTimeout(function () {
           async.parallel([verifyIndex, verifyTest], function () {
             done();
